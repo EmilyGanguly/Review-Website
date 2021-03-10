@@ -21,7 +21,7 @@ h1{
 #grid{
 	display: grid;
 	width: 1200px;
-	height: 1500px;
+	height: 1900px;
 	border: 2px solid rgba(0,0,0,1);
 	grid-template-columns: auto auto;
 	grid-template-rows: auto auto auto;
@@ -52,5 +52,64 @@ h1{
 #ts-pic{
 	background: url("https://bingeddata.s3.amazonaws.com/uploads/2099/04/The-Spy-Netflix-Review-The-Spy-TV-Series-Review-Ratings-1.jpg");
 	background-size: cover;
+	margin: 0px 0px 0px 40px;
+}
+#tp{
+	display: grid;
+	grid-template-rows: 270px 250px;
+}
+.tp-item{
+	border: 2px solid rgba(196, 13, 0, 1);
+	width: 350px;
+	height: 300px;
+}
+#tp-pic{
+	background: url("https://lwlies.com/wp-content/uploads/2016/10/the-prestige-christian-bale.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px 0px 0px 40px;
+}
+#aos{
+	display: grid;
+	grid-template-rows: 180px 250px;
+}
+.aos-item{
+	border: 2px solid rgba(196, 13, 0, 1);
+	width: 400px;
+	height: 200px;
+}
+#aos-pic{
+	background: url("https://static3.srcdn.com/wordpress/wp-content/uploads/2021/02/Age-of-Samurai-Battle-for-Japan-Logo.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0px 0px 0px 60px;
+}
+#bb{
+	display: grid;
+	grid-template-rows: 237px 350px;
+}
+.bb-item{
+	height: 300px;
+	width: 250px
+	border: 2px solid rgba(196, 13, 0, 1);
+}
+#bb-pic{
+	background: url("http://2.bp.blogspot.com/-x545lKfrW1A/UzQJ35siyjI/AAAAAAAAAdw/qT7_ynHBHCk/s1600/breaking_bad_by_motionshowcase-d5l3atm.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0px 0px 0px 40px;
+}
+#bbb{
+	display: grid;
+	grid-template-rows: 190px 300px;
+}
+.bbb-item{
+	border: 2px solid rgba(196, 13, 0, 1);
+	width: 400px;
+	height: 300px;
+}
+#bbb-pic{
+	background: url("https://specials-images.forbesimg.com/imageserve/5f51ef3bfb71ba1c6d46fb0e/960x0.jpg?fit=scale");
+	background-size: contain;
 	margin: 0px 0px 0px 40px;
 }
